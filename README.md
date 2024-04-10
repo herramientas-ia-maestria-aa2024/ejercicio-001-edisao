@@ -25,7 +25,7 @@ with open("informacion.txt") as archivo:
 
 **Opción 3**
 
-# Tomado de [isaiasilvadh](https://github.com/herramientas-ia-maestria-aa2024/ejercicio-001-isaiasilvadh) por manejo de excepciones
+**Tomado de [isaiasilvadh](https://github.com/herramientas-ia-maestria-aa2024/ejercicio-001-isaiasilvadh) por manejo de excepciones**
 
 ```python
 nombre_archivo = "informacion.txt"
