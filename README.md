@@ -22,3 +22,19 @@ with open("informacion.txt") as archivo:
     for linea in archivo:
         print(linea)
 ```
+
+**Opción 3**
+
+# Tomado de [isaiasilvadh](https://github.com/herramientas-ia-maestria-aa2024/ejercicio-001-isaiasilvadh) por manejo de excepciones
+
+```python
+nombre_archivo = "informacion.txt"
+try:
+    # Abrir el archivo
+    with open(nombre_archivo, 'r') as archivo:
+        lineas = archivo.readlines()
+        for linea in lineas:
+            print(linea.rstrip())
+except FileNotFoundError:
+    print(f"El archivo '{nombre_archivo}' no se encontró.")
+```
